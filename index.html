@@ -1,6 +1,27 @@
-<!-- Notes -->
+<!-- Notes 
+About Page: Complete
+
+Resume Page: Complete
+
+Portfolio Page: Complete
+
+
+Music Page:
+  - Figure out how to align the piano and guitar image
+
+
+Contact Page:
+  - Done
+
+
+
+
+-->
 <!-- Put images in assets folder -->
 <!-- Put this on my own github (in case accidentally delete things) -->
+
+
+
 
 
 <!DOCTYPE html>
@@ -10,7 +31,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+  <title>Website</title>
 
   <!--
     - favicon
@@ -47,14 +68,12 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/Profile.jpg" alt="Richard hanrick" width="80">
+          <img src="./assets/images/profile_round.png" alt="Richard hanrick" width="80">
         </figure>
 
         <div class="info-content">
           <h1 class="name" title="Ricky Dick">Varun Awasthi</h1>
 
-          <p class="title">Web developers</p>
-        </div>
 
         <button class="info_more-btn" data-sidebar-btn>
           <span>Show Contacts</span>
@@ -78,7 +97,6 @@
 
             <div class="contact-info">
               <p class="contact-title">Email</p>
-
               <a href="mailto:varunawasthi911@gmail.com" class="contact-link">varunawasthi911@gmail.com</a>
             </div>
 
@@ -97,21 +115,27 @@
             </div>
 
           </li>
+      
+            
+          <a href="assets\UpdatedResume 2023.pdf" >
+            <li class="contact-item">
 
-          <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="newspaper-outline"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <p class="contact-title">Resume</p>
+  
+                <address>⇓ Download</address>
+              </div>
+  
+            </li>
+                  
+              
+                  <!-- <a href="assets\UpdatedResume 2023.pdf" style="color:rgb(255,255,255) "; align='center' download="Varun Awasthi Resume">⇓ Download</a> -->
 
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">October 26, 1999</time>
-            </div>
-
-          </li>
-
+          </a>
           <li class="contact-item">
 
             <div class="icon-box">
@@ -139,7 +163,7 @@
           </li>
 
           <li class="social-item">
-            <a href="#" class="social-link">
+            <a href="https://github.com/varunawasthi" class="social-link">
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
@@ -181,7 +205,7 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
+            <button class="navbar-link" data-nav-link>Music</button>
           </li>
 
           <li class="navbar-item">
@@ -208,19 +232,21 @@
 
         <section class="about-text">
           <p>
-            I'm a Credit Analyst at Synchrony Financial in Stamford, Connecticut.
-            I enjoy problem solving, reading the news and learning new things.
+            I'm a Credit Analyst in the Business Leadership Program at Synchrony Financial in Stamford, Connecticut.
+            As part of this rotational program, I have gotten the opportunity to learn about the consumer credit business through my experiences 
+            on the Loss Mitigation strategy team, and the Credit Acquistion reporting team.
+            
 
             <br>
             <br>
             I graduated from the University of Illinois with a degree in Finance from the Gies College of Business.
             Since I was interested in data science I learned how to use python and other data science tools to complement my Finance degree.
+            I enjoy problem solving and reading the news which is why I have always been drawn towards Data Analytics and Finance.
           </p>
 
           <p>
             <br>
-            The purpose of my website is to introduce myself and showcase some of the projects I've worked on.
-            This website has my work experiences, research projects and music that I've learned to play on the piano and guitar.  
+            This website showcases my work and non-profit experiences, research projects and music that I've learned to play on the piano and guitar.  
           </p>
         </section>
 
@@ -238,15 +264,15 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
+                <img src="./assets/images/icon_analytics.png"
                 " alt="design icon" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Finance/Credit Analytics</h4>
+                <h4 class="h4 service-item-title">Credit Analytics</h4>
 
                 <p class="service-item-text">
-                  I used my Finance and Technology skills in my role as a Credit Analyst
+                  I use my Finance and Technology skills in my role as a Credit Analyst
                 </p>
               </div>
 
@@ -255,7 +281,7 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                <img src="./assets/images/icon_research.png" alt="Web development icon" width="40">
               </div>
 
               <div class="service-content-box">
@@ -271,15 +297,14 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                <img src="./assets/images/icon_financial_literacy.png" alt="mobile app icon" width="40">
               </div>
 
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Financial Literacy</h4>
 
                 <p class="service-item-text">
-                  I host finacial literacy for high school students to get them interested in personal finance
-                </p>
+                  I teach finacial literacy to high school students
               </div>
 
             </li>
@@ -287,7 +312,7 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                <img src="./assets/images/icon_music.png" alt="camera icon" width="40">
               </div>
 
               <div class="service-content-box">
@@ -297,115 +322,13 @@
                   I am learning to play the piano and guitar.
                 </p>
               </div>
-
             </li>
-
           </ul>
 
         </section>
 
 
-        <!--
-          - testimonials
-        -->
-
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
+ 
 
 
         <!--
@@ -422,86 +345,14 @@
               <ion-icon name="close-outline"></ion-icon>
             </button>
 
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
+      
 
           </section>
 
         </div>
 
 
-        <!--
-          - clients
-        -->
-
-        <section class="clients">
-
-          <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
+  
 
       </article>
 
@@ -519,65 +370,16 @@
           <h2 class="h2 article-title">Resume</h2>
         </header>
 
-        <section class="timeline">
 
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">University of Illinois Urbana-Champaign </h4>
-
-              <span>2018 — 2022        <i>GPA: 3.98</i></span>
-              <br>
-              <h5 class="h5 timeline-item-title">Vice President: Finance Academy </h5>
-
-              <p class="timeline-text">
-             
-                • Recruited top business students to develop technical, business, and leadership skills <br>
-                • Co-ordinated events and activities to bring in guest speakers from various financial sectors <br>
-                • Managed a mentorship program that pairs upperclassmen with new recruits<br>
-              </p> <br>
-              <h5 class="h5 timeline-item-title">Teaching Assistant: Advanced Data Science </h5>
-
-              <p class="timeline-text">
-             
-                • Assisted Masters students in learning Advanced Data Science and Python for Finance <br>
-                • Assisted the classroom activities and graded homework for the standard/advanced course <br>
-              </p><br>
-
-              <h5 class="h5 timeline-item-title">Research Assistant: Political Representation Project</h5>
-
-              <p class="timeline-text">
-             
-                • Researching the impact of remote work policies on the diversity of political representation
-                • Exploring ways of visually representing our finding using Python mapping tools
-              </p>
-
-
-
-
-
-
-          </ol>
-
-        </section>
 
         <section class="timeline">
 
           <div class="title-wrapper">
             <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <ion-icon name="briefcase"></ion-icon>
             </div>
 
-            <h3 class="h3">Experience</h3>
+            <h3 class="h3">Work Experience</h3>
           </div>
 
           <ol class="timeline-list">
@@ -587,101 +389,262 @@
               <h4 class="h4 timeline-item-title">Synchrony Financial</h4>
 
               <span>2021 — Present</span>
+              <br>
 
+
+              <h5 class="h4 timeline-item-title">Credit Analytics BLP: Health and Wellness Portfolio Credit Management</h5>
               <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
+                • Automated the daily fraud and acquistion reports in Tableau and SAS Viya <br>
+                • Delivered monthly portfolio acquisition updates to health and wellness client teams <br>
+      
+              </p>
+              <br>
+              <h5 class="h4 timeline-item-title">Credit Analytics BLP: Loss Mitigation</h5>
+              <p class="timeline-text">
+                • Managed the loss mitigation strategies for all client teams<br>
+                • Implemented changes for credit limit decrease and account closure strategies  <br>
+                • Tested the feasibility of newly acquired data to be implemented in strategies
+              </p><br>
+
+              <h5 class="h4 timeline-item-title">Credit Analytics BLP Intern: Amazon Client Team</h5>
+              <p class="timeline-text">
+                • Analyzed 7 million Amazon accounts to identify 150K accounts for a credit limit increase <br>
+                • Tested statistical financial performance of target populations using SAS, Excel Pivot tables <br>
+                • Tested the adequacy of the current credit line amounts among various populations
               </p>
 
-            </li>
 
-            <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Art director</h4>
 
-              <span>2013 — 2015</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Web designer</h4>
-
-              <span>2010 — 2013</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
+            
           </ol>
+
+
 
         </section>
 
-        <section class="skill">
 
-          <h3 class="h3 skills-title">My skills</h3>
 
-          <ul class="skills-list content-card">
 
-            <li class="skills-item">
+      </section>
 
-              <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
+      <section class="timeline">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+
+          <h3 class="h3">Financial Literacy</h3>
+        </div>
+
+        <ol class="timeline-list">
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">Synchrony Financial</h4>
+
+            <span>2022 — Present</span>
+            <br>
+
+
+            <h5 class="h4 timeline-item-title">Synchrony Skils Academy</h5>
+            <p class="timeline-text">
+              • Hosted Financial Literacy Sesssions for high schools students attending the academy <br>
+              • Presented students with interactive activities to increase interest in Personal Finance <br>
+  
+            </p>
+            <br>
+            <h5 class="h4 timeline-item-title">Black Experiences+ Network</h5>
+            <p class="timeline-text">
+              • Communicated the Financial Benefits Synchrony available to employees<br>
+              • Hosted Financial Literacy Sesssions for the Women's Network and New Hires  <br>
+              • Hosted Financial Literacy Sesssions for Girls Who Code
+            </p><br>
+          
+        </ol>
+
+
+
+      </section>
+
+      <section class="timeline">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="briefcase"></ion-icon>
+          </div>
+
+          <h3 class="h3">Community Service</h3>
+        </div>
+
+        <ol class="timeline-list">
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">Stamford Partnership</h4>
+
+            <span>2022 — Present</span>
+            <br>
+
+
+            <h5 class="h4 timeline-item-title">Volunteer</h5>
+            <p class="timeline-text">
+              • Reorganized and fixed bugs on website using WordPress <br>
+              • Analyzed Site traffic via Google Analytics and presented findings to CEO <br>
+              • Assisted with the planning of the annual gala <br>
+  
+            </p>
+            <br>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intempo</h4>
+  
+              <span>2022 — Present</span>
+              <br>
+              <h5 class="h4 timeline-item-title">Board Member: Treasurer</h5>
+              <p class="timeline-text">
+                • Served as Treasurer on the Finance Committee <br>
+                • Presented Financial reports at quarterly board meetings<br>
+                • Oversaw all financial budget projections prepared by the Finance Committee
+              </p>
+
+          
+        </ol>
+
+
+      </section>
+
+      <section class="timeline">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+
+          <h3 class="h3">Education</h3>
+        </div>
+
+        <ol class="timeline-list">
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">University of Illinois Urbana-Champaign </h4>
+
+            <span>2018 — 2022        <i>GPA: 3.98</i></span>
+            <br>
+            <h5 class="h5 timeline-item-title">Vice President: Finance Academy </h5>
+
+            <p class="timeline-text">
+           
+              • Recruited top business students to develop technical, business, and leadership skills <br>
+              • Co-ordinated events and activities to bring in guest speakers from various financial sectors <br>
+              • Managed a mentorship program that pairs upperclassmen with new recruits<br>
+            </p> <br>
+            <h5 class="h5 timeline-item-title">Teaching Assistant: Advanced Data Science </h5>
+
+            <p class="timeline-text">
+           
+              • Assisted Masters students in learning Advanced Data Science and Python for Finance <br>
+              • Assisted the classroom activities and graded homework for the standard/advanced course <br>
+            </p><br>
+
+            <h5 class="h5 timeline-item-title">Research Assistant: Political Representation Project</h5>
+
+            <p class="timeline-text">
+           
+              • Researched the impact of remote work policies on the diversity of political representation <br>
+              • Explored ways of visually representing findings using Python mapping tools
+            </p>
+
+
+
+
+
+
+        </ol>
+
+      </section>
+
+        <section class="service">
+
+          <h3 class="h3 service-title">My Skills</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="assets\images\coding_icon.png
+                " alt="design icon" width="40">
               </div>
 
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programming Skills</h4>
+                <div class="service-content-box">
+               
+                <p class="service-item-text">
+                  • Python  • SAS <br> 
+                  • Javascript  • R  <br>
+                  • HTML  • Web Design  <br>
+                  • Jupyter Notebooks  <br>
+                  • Script Automation 
+                </p>
               </div>
 
             </li>
 
-            <li class="skills-item">
+            <li class="service-item">
 
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
+              <div class="service-icon-box">
+                <img src="assets\images\software_icon.png" alt="Web development icon" width="40">
               </div>
 
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software</h4>
 
-            </li>
+                <p class="service-item-text">
+                  • Tableau        • SAS Viya <br>
+                  • CapIQ          • Bloomberg  <br>
+                  • eMoney         • WordPress <br> • FICO Analytics Workbench <br>
+                  • Adobe Photoshop
 
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
+                </p>
               </div>
 
             </li>
 
-            <li class="skills-item">
+            <li class="service-item">
 
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
+              <div class="service-icon-box">
+                <img src="assets\images\problem_solving icon.png" alt="mobile app icon" width="40">
               </div>
 
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Personal Skills</h4>
+
+                <p class="service-item-text">
+                  • Problem Solving <br>
+                   • Teaching
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="assets\images\language_icon.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Languages</h4>
+
+                <p class="service-item-text">
+                  • English  <br>
+                  • Hindi 
+                </p>
               </div>
 
             </li>
@@ -690,6 +653,15 @@
 
         </section>
 
+
+
+
+
+
+
+
+
+            
       </article>
 
 
@@ -715,16 +687,22 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+              <button data-filter-btn>Finance</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn>Misc.</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
+              <button data-filter-btn>Web Design</button>
             </li>
+
+
+            <li class="filter-item">
+              <button data-filter-btn>Community Service</button>
+            </li>
+
 
           </ul>
 
@@ -747,7 +725,7 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web design</button>
+                <button data-select-item>Web Design</button>
               </li>
 
               <li class="select-item">
@@ -764,169 +742,203 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="finance">
+              <a href="https://www.kaggle.com/code/varunawasthi/sharpe-ratio-analysis">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <img src="assets\images\Sharpe ratio.png" alt="finance" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Finance</h3>
+                <h3 class="project-title">Sharpe Ratio Analysis</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Finance</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="finance">
+              <a href="https://docs.google.com/spreadsheets/d/1Y08RveNOXXJesz2jFIwkaHlBC5KJktlcEkoqHybyIAs/edit#gid=562408517">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="assets\images\FIN419_dashboard.PNG" alt="orizon" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Orizon</h3>
+                <h3 class="project-title">Financial News Dashboard</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Finance</p>
 
               </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="finance">
+              <a href="https://www.kaggle.com/code/varunawasthi/sp500-sector-analysis">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets\images\SP500_Sector Analysis.PNG" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">SP500 Sector Analysis</h3>
+
+                <p class="project-category">Finance</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="misc.">
+              <a href="https://www.kaggle.com/code/varunawasthi/world-leaders">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets\images\World_Leaders Analysis.PNG" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">World Leaders Analysis</h3>
+
+                <p class="project-category">Misc</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="misc.">
+              <a href="https://www.kaggle.com/code/varunawasthi/covid19-final">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets\images\Covid19_Analysis.PNG" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Covid 19 Analysis</h3>
+
+                <p class="project-category">Misc.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="finance">
+              <a href="https://www.kaggle.com/code/varunawasthi/synchrony-stock-valuation">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets\images\SYF_Analysis.PNG" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Synchrony Stock Analysis</h3>
+
+                <p class="project-category">Finance</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="misc.">
+              <a href="https://www.kaggle.com/code/varunawasthi/covid-19-world">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets\images\World_Covid19_Analysis.PNG" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">World Covid 19 Analysis</h3>
+
+                <p class="project-category">Misc.</p>
+
+              </a>
+            </li>
+
+
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+              <a href="https://stamfordpartnership.org/">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                  <img src="assets\images\Stamford Partnership2.PNG" alt="arrival" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Fundo</h3>
+                <h3 class="project-title">Stamford Partnership Website</h3>
 
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
+                <p class="project-category">Web Design</p>
 
               </a>
             </li>
 
           </ul>
+
+
+          <li class="project-item  active" data-filter-item data-category="community service">
+            <a href="https://stamfordpartnership.org/news/ungala-photo-album/">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="assets\images\Stamford Partnership_gala.PNG" alt="arrival" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Stamford Partnership Gala</h3>
+
+              <p class="project-category">Community Service</p>
+
+            </a>
+          </li>
+
+
+
+
+          <li class="project-item  active" data-filter-item data-category="community service">
+            <a href="https://intempo.org/blog/synchrony-skills-academy-visits-teen-council/">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="assets\images\Intempo Financial Literacy.PNG" alt="arrival" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Intempo Financial Literacy</h3>
+
+              <p class="project-category">Community Service</p>
+
+            </a>
+          </li>
+
+
+
+
+
+
+
+
+
 
         </section>
 
@@ -936,195 +948,70 @@
 
 
 
-      <!--
-        - #BLOG
+<!--       
+        - #MUSIC
       -->
-
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
+      <article class="blog" data-page="music">
+        <header> 
+          <h2 class="h2 article-title">Music</h2>
         </header>
+        <section class="service">
 
-        <section class="blog-posts">
 
-          <ul class="blog-posts-list">
+          <ul class="service-list">
 
-            <li class="blog-post-item">
-              <a href="#">
+      
+            <li class="service-item">
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
 
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
+              <div class="service-content-box1">
+                <h4 class="h4 service-item-title1">Get Lucky</h4>
+  
+                  <iframe width="350" height="350" src="https://www.youtube.com/embed/ue8vfHtcaiA?si=yz5zpkJMj_Ru-ayD" title="YouTube video player" frameborder="1.5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                
+              </div>
+  
             </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
+            <li class="service-item">
+  
+  
+              <div class="service-content-box1">
+                <h2 class="h4 service-item-title1">Blinding Lights</h2>
+  
+                  <iframe width="350" height="350" src="https://www.youtube.com/embed/oHC60Lc6-XY?si=Roaa67dkBc7g71ts" title="YouTube video player" frameborder="1.5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                
+              </div>
+  
             </li>
+            <li class="service-item">
 
-            <li class="blog-post-item">
-              <a href="#">
 
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
+              <div class="service-content-box1">
+                <h4 class="h4 service-item-title1">Your Name</h4>
+  
+                  <iframe width="350" height="350" src="https://www.youtube.com/embed/videoseries?si=uxnaZ-7a9X4zvRfD&amp;list=PLwz2mFLwoYdDgKw-xbc0tnn5Kg94hb4Hy" title="YouTube video player" frameborder="1.5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                
+              </div>
+  
             </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
+            <li class="service-item">
+  
+  
+              <div class="service-content-box1">
+                <!-- <h4 class="h4 service-item-title1">Blinding Lights</h4>
+  
+                  <iframe width="350" height="350" src="https://www.youtube.com/embed/ue8vfHtcaiA?si=yz5zpkJMj_Ru-ayD" title="YouTube video player" frameborder="1.5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                 -->
+              </div>
+  
             </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
+  
           </ul>
 
         </section>
 
-      </article>
-
-
+      </article> 
+ 
 
 
 
@@ -1140,8 +1027,7 @@
 
         <section class="mapbox" data-mapbox>
           <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96252.07744408773!2d-73.64689628204351!3d41.07167201993283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2a164b2c7bc0b%3A0x8743868b9c34b76e!2sStamford%2C%20CT!5e0!3m2!1sen!2sus!4v1698597408553!5m2!1sen!2sus&z=1" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
               width="400" height="300" loading="lazy"></iframe>
           </figure>
         </section>

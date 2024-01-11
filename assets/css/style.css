@@ -547,6 +547,7 @@ main {
 .service-content-box { text-align: center; }
 
 .service-item-title { margin-bottom: 7px; }
+.service-item-title1 { margin-bottom: 7px; font-size: 24px; text-align: center;}
 
 .service-item-text {
   color: var(--light-gray);
@@ -1880,3 +1881,35 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+
+
+
+
+
+
+
+  /**
+   * MUSIC PLAYER
+   */
+
+   .player {
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+    height: 352px;
+    width: 352px;
+  }
+
+  .inline-block-child {
+    display: inline-block;
+  }
+
+
+  #Image1 {
+    position: relative;
+    top: 10px;
+    left: 500px;
+  }
+
+
